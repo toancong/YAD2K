@@ -4,7 +4,7 @@
 *.png
 *.jpg
 *.cfg
-images/*
+!images/*
 images/out/*
 model_data/*_anchors.txt
 
