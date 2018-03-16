@@ -153,7 +153,7 @@ def yolo_loss(args,
               anchors,
               num_classes,
               rescore_confidence=False,
-              print_loss=False):
+              print_loss=True):
     """YOLO localization loss function.
 
     Parameters
